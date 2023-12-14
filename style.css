@@ -1,0 +1,471 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#title-heading {
+  font-family: sans-serif;
+  font-size: 80px;
+  margin: 60px 60px 0px 60px;
+  text-align: center;
+  color: cornflowerblue;
+}
+#title-section {
+  margin: auto;
+  padding-top: 250px;
+  height: 500px;
+  text-align: center;
+}
+#what-is-human-trafficking {
+  margin: auto;
+  margin-top: 500px;
+  margin-bottom: -500px;
+}
+#char-section {
+  margin: auto;
+  margin-top: 250px;
+  margin-bottom: 500px;
+  height: 500px;
+  border-top: solid 10px lightblue;
+}
+.petition {
+  margin-bottom: 550px;
+}
+.petit-space {
+  margin: auto;
+  margin-top: 250px;
+  margin-bottom: 500px;
+  height: 500px;
+}
+.char {
+  text-align: center;
+}
+.img-class {
+  padding-top: 20px;
+  width: 303px;
+  height: 300px;
+  border: 6px solid lightblue;
+  border-radius: 20px;
+}
+#par-p {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#sign-petition label {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: cornflowerblue;
+  font-weight: bold;
+}
+.char-flex-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+.char-i {
+  font-size: 27px;
+  font-family: sans-serif;
+}
+.char-flex-2 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+.info-1-3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.i1 {
+  border-top: 10px solid lightblue;
+}
+#info-section-2 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding-left: 500px;
+}
+#who-heading {
+  padding-right: 30px;
+  margin-top: 30px;
+}
+#p3 {
+  text-align: left;
+}
+.stat-p {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: steelblue;
+}
+#who-par {
+  padding-right: 20px;
+}
+#who-div {
+  text-align: left;
+  padding-left: 100px;
+}
+.info-par {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: -25px;
+  color: steelblue;
+  
+}
+#info-2 {
+  text-align: right;
+}
+.div-sec1-2 {
+  width: 750px;
+  padding-left: 50px;
+  height: 100px;
+  float: left;
+  display: block;
+  margin-bottom: 200px;
+  margin-left: -37px;
+}
+#stat-section {
+  margin: auto;
+  margin-top: 500px;
+  margin-bottom: 500px;
+  height: 500px;
+  text-align: center;
+}
+#how-to-help-section {
+  margin: auto;
+  margin-top: 1000px;
+  margin-bottom: 500px;
+  height: 500px;
+  text-align: center;
+  border-top: solid 10px lightblue;
+}
+a:link {
+  color: cornflowerblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color:lightblue;
+  text-decoration: none;
+}
+a:active {
+  color:green;
+  text-decoration: none;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color:lightblue;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 800%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    background-color: lightblue;
+    height: 55px;
+}
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+/* Style rule set for individual li link */
+.navbar ul li a {
+    display: block;
+    font-family: Arial;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+}
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+    color: white;
+}
+.flex-section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 0px 60px 0px;
+  gap: 150px;
+}
+/* Might get rid of the width and height      */
+.sec1-item:nth-of-type(1) {
+  text-align:center;
+  width: 450px;
+  padding: 20px;
+  margin: 30px;
+  height: 200px;
+  border-bottom: 10px solid lightblue;
+  border-top: 10px solid lightblue;
+}
+.sec1-item2 {
+  text-align:center;
+  width: 450px;
+  padding: 20px;
+  margin: 30px;
+  height: 200px;
+  border-right: 10px solid lightblue;
+  border-left: 10px solid lightblue;
+}
+.flex-section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 40px 100px 40px;
+  gap: 150px;
+}
+.sec2-item:nth-of-type(1) {
+  text-align:center;
+  width: 450px;
+  padding: 20px;
+  margin: 30px;
+  border-bottom: 10px solid lightblue;
+  border-top: 10px solid lightblue;
+}
+#who-sec2 {
+  margin-top: 50px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+#theme-button {
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  height: 30px;
+  border: 2px solid white;
+}
+.headings {
+  font-family: sans-serif;
+  font-size: 60px;
+  padding-bottom: 0px;
+  color: cornflowerblue;
+}
+.headings1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  padding-bottom: 0px;
+  text-align: left;
+  color: cornflowerblue;
+}
+.petition {
+  border-top: 10px solid lightblue;
+  text-align: center;
+  height: 1000px;
+}
+
+#sign-now-button {
+  background-color: lightblue;
+  color: cornflowerblue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 32px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+#sign-now-button:hover {
+  background-color: lightcyan;
+}
+.petition-container {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+input[type=text] {
+  margin: 5px ;  
+  border: 2px solid cornflowerblue;
+  outline: none;
+  transition: 0.5s;
+  width: 300px;
+  height: 20px;
+}
+input[type=text]:focus {
+  border: 3px solid powderblue;
+}
+
+.signatures {
+ 
+  color: cornflowerblue;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+/* Add to CSS file */
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+.float-right {
+  float: right;
+  margin-right: 60px;
+}
+#p1 {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  font-family: sans-serif;
+}
+.flex-information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 150px;
+}
+.info-item {
+  text-align:center;
+  width: 300px;
+  padding: 20px;
+}
+info-item2 {
+  text-align:center;
+  width: 300px;
+  padding: 20px;
+}
+#Information {
+  text-align: center;
+  font-family: sans-serif;
+}
+.revealable {
+  position: relative;
+  transform: translateX(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.active {
+  transform: translateX(0px);
+  opacity: 1;
+}
+.how-to-help {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+}
+.how-to-help > div {
+  width: 270px;
+  margin: 10px;
+}
+.hth-headers {
+  padding-top: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  color: cornflowerblue;
+}
+.hth-p {
+  text-align: center;
+  font-family:sans-serif;
+  padding: 10px 8px 0px 10px;
+  font-size: 19px;
+  color: steelblue;
+}
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#info1 {
+  height: 200px;
+  width: 1000px;
+  margin-bottom: 20px;
+  text-align:center;
+  border: solid black;
+}
+#info2 {
+  height: 400px;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align:center;
+  border: solid black;
+}
+#info3 {
+  height: 200px;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align:center;
+  border: solid black;
+}
+.pet-par {
+  color: cornflowerblue;
+}
+.petition-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+#pet-heading {
+  color: cornflowerblue;
+  font-size: bold;
+  font-family: sans-serif;
+}
+.pet-item2 {
+  border-top: 7px solid lightblue;
+}
+.pet-item1 {
+  border-bottom: 7px solid lightblue;
+}
