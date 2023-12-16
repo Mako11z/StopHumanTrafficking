@@ -22,7 +22,7 @@ This website is dedicated to raising awareness about human trafficking, a heinou
 
 To run this website locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/human-trafficking-awareness.git
+1. Clone the repository: git clone https://github.com/Mako11z/StopHumanTrafficking/tree/main
 2. Open the index.html file in your preferred web browser.
    
 
