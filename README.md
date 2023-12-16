@@ -1,6 +1,6 @@
-##Human Trafficking Awareness Website
+## Human Trafficking Awareness Website
 
-#Overview
+# Overview
 
 This website is dedicated to raising awareness about human trafficking, a heinous crime that affects millions of people globally. Our goal is to provide information, resources, and actionable steps for individuals and communities to join the fight against human trafficking.
 
